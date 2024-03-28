@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+.conatiner{
+    width:100%;
+}
+
+.grain{
+    position: fixed;
+    z-index: 1;
+    background-image: url('../images/nnnoise.svg');
+    width: 99%;
+    height: 100%;
+    pointer-events: none;
+    opacity: .5;
+}
+
+.image_block{
+    width: 100%;
+    height: 500px;
+    background-size:cover;
+    position: relative;
+    background-position: center;
+}
+
+@media screen and (max-width: 700px) {
+    .image_block {
+      height: 350px;
+    }
+  }
+
+.filter{
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: screen;
+}
+
+.block{
+    width:100%;
+    position: relative;
+}
+
+h1{
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: 200;
+    font-size: 100px;
+    text-align: center;
+    margin: 0px;
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+      font-size: 75px;
+    }
+  }
+
+.about{
+    margin:auto;
+    margin-top: 100px;
+}
+
+h2{
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: 200;
+    font-size: 60px;
+    text-align: center;
+}
+
+h3{
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: 200;
+    font-size: 20px;
+}
+
+p{
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: 200;
+    font-size: 20px;
+}
+
+.info{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.summary{
+    width:350px;
+    padding:5%;
+}
+
+.portrait{
+    height: 600px;
+    width:350px;
+    border-radius: 100%;
+    background-size:cover;
+    background-position: center;
+}
+
+.bullet_list{
+    padding:5%;
+    width: 350px;
+}
+
+.bullet{
+    width:100%;
+    margin:5px;
+    padding:1px;
+    text-align: center;
+}

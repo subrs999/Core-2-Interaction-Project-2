@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgb(0, 0, 0);
+    margin:0;
+}
+
+h1{
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: 200;
+    color: #ffffff;
+    font-size: 100px;
+    text-align: center;
+    padding:2vw;
+}
+
+@media screen and (max-width: 1500px) {
+    h1 {
+      font-size: 80px;
+    }
+  }
+
+@media screen and (max-width: 900px) {
+    h1 {
+      font-size: 60px;
+    }
+  }
+
+h3{
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    font-stretch: 200;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+    line-height: 55px;
+    
+}
+
+p{
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: 200;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.emphasis{
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1500px) {
+    p {
+      font-size: 22.5px;
+    }
+  }
+
+@media screen and (max-width: 900px) {
+    p {
+      font-size: 20px;
+    }
+  }
+
+
+#intro{
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    position: relative;
+}
+
+#container{
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    transition: .175s ease-in;
+}
+
+.matchbox{
+    width:300px;
+    height:400px;
+    background-color: lightgrey;
+    margin: 5vw;
+    box-shadow: -30px 20px 50px rgb(0, 0, 0);
+    border: lightgrey 5px solid;
+    transition: .175s ease-in;
+}
+
+.matchbox:hover{
+    scale: 1.1;
+    box-shadow: -60px 40px 200px rgb(0, 0, 0);
+}
+
+.texture{
+    width: 300px;
+    height: 400px;
+    background-image: url('../images/nnnoise.svg');
+    position: absolute;
+    margin: 0;
+    z-index: 1;
+    opacity: .75;
+}
+
+.cover{
+    opacity: .8;
+}
+
+.title{
+    box-sizing: border-box;
+    height: 75px;
+    text-align: center;
+}
+
+.image{
+    height: 315px;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.arch{
+    position: relative;
+    width:60vw;
+    height:180px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 100px;
+    transition: .175s ease-in;
+    text-align: center;
+}
