@@ -66,7 +66,7 @@ p{
 
 @media screen and (max-width: 900px) {
     p {
-      font-size: 20px;
+      font-size: 15px;
     }
   }
 
@@ -76,6 +76,18 @@ p{
     background-color: rgb(0, 0, 0);
     overflow: hidden;
     position: relative;
+}
+
+@media screen and (max-width: 500px) {
+  #intro {
+    height: 120vh;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #intro {
+    height: 140vh;
+  }
 }
 
 #container{
