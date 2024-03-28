@@ -116,7 +116,7 @@ p{
 .texture{
     width: 300px;
     height: 400px;
-    background-image: url('../images/nnnoise.svg');
+    background-image: url('images/nnnoise.svg');
     position: absolute;
     margin: 0;
     z-index: 1;
